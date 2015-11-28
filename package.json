@@ -1,6 +1,6 @@
 {
   "name": "clog-js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Client-side centralized logging.",
   "main": "index.js",
   "scripts": {
