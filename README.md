@@ -1,9 +1,9 @@
-clog-client
-===========
+clog-js
+=======
 
 Clog is a centralized logging system.
 
-This is the client-side counterpart to
+This is the JavaScript client-side counterpart to
 [clog-server](https://github.com/imiric/clog-server) for submitting log data via
 a JSON API.
 
@@ -12,7 +12,7 @@ Setup
 -----
 
 ```
-npm install clog-client
+npm install clog-js
 ```
 
 Standalone browser builds are available in the package under the `dist/`
@@ -24,7 +24,7 @@ Usage
 
 
 ```
-var clog = require('clog-client');
+var clog = require('clog-js');
 ```
 
 Or in the browser:
