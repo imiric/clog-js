@@ -68,6 +68,14 @@ Here are the configuration options you can pass to the initializer:
 - `source`: The identifier for the client's logs on the server.
 
 
+Tests
+-----
+
+```
+$ xdg-open test/test.html
+```
+
+
 License
 -------
 
