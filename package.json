@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Client-side centralized logging.",
   "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p dist && ./node_modules/.bin/browserify -s Clog index.js | ./node_modules/.bin/uglifyjs -c > dist/clog-standalone.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/imiric/clog-client"
@@ -18,6 +21,14 @@
   "bugs": {
     "url": "https://github.com/imiric/clog-client/issues"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "reqwest": "^2.0.5"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "uglifyify": "^3.0.1"
+  }
 }
