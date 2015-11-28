@@ -1,0 +1,23 @@
+{
+  "name": "clog-client",
+  "version": "0.0.0",
+  "description": "Client-side centralized logging.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imiric/clog-client"
+  },
+  "keywords": [
+    "clog",
+    "logging",
+    "http",
+    "client"
+  ],
+  "author": "Ivan Mirić <imiric@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imiric/clog-client/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
